@@ -1,7 +1,5 @@
 
 .about-wrapper {
-  background-color: black;
-  color: white;
   height: 100vh;
   display: flex;
 }
@@ -24,14 +22,14 @@
 .about-text img {
   display: block;
   margin: auto;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 
 .skills-container {
   width: 45%;
   display: inline-block;
-  border: 2px solid white;
+  border: 2px solid black;
   margin-top: 20px;
   height: 80vh;
 }
@@ -49,4 +47,5 @@
   list-style-type: none !important;
   line-height: 2.1em;
   padding: 0;
+  columns: 2;
 }

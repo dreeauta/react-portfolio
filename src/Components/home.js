@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import '../App.css';
+import '../CSS/App.css';
 
 export default class Home extends React.Component{
 
