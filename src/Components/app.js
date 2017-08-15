@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
 
-
 import {Link, IndexLink } from 'react-router';
 
 

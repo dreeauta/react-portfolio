@@ -1,0 +1,52 @@
+
+.about-wrapper {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+}
+
+.about-text-container {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.about-text {
+  width: 80%; 
+  margin: auto;
+  line-height: 1.7em;
+}
+
+.about-text img {
+  display: block;
+  margin: auto;
+  border: 2px solid white;
+}
+
+
+.skills-container {
+  width: 45%;
+  display: inline-block;
+  border: 2px solid white;
+  margin-top: 20px;
+  height: 80vh;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills h2 {
+  text-decoration: underline;
+  letter-spacing: .3em;
+}
+
+.skills ul{
+  list-style-type: none !important;
+  line-height: 2.1em;
+  padding: 0;
+}
