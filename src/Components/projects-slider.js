@@ -1,5 +1,5 @@
 import React from 'react';
-import '../projects.css';
+import '../CSS/projects.css';
 
 var projects = [
   {
@@ -17,7 +17,7 @@ var projects = [
     image: './img/tictactoe.png',
     description: 'Using Javascript and jQuery I built a cartoon themed BlackJack game.',
     technologies: 'Technologies: HTML, CSS, Javascript, jQuery',
-    projectLink: 'blacjack.andreeauta.com',
+    projectLink: 'blackjack.andreeauta.com',
     githubLink: 'https://github.com/dreeauta/blackjack',
   },
   {

@@ -1,0 +1,24 @@
+.projects-wrapper {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.project-container {
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.project-links {
+  width: 200px;
+  margin: auto;
+}
+.project-links a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+
+}
