@@ -21,7 +21,7 @@ export default class Projects extends React.Component{
           <h2>Blackjack </h2>
           <img src="img/blackjack.png"/>
           <p> Using Javascript and jQuery I built a cartoon themed BlackJack game. </p>
-          <p className="project-technologies"> <span>Technologies: </span> 'Technologies: HTML, CSS, Javascript, jQuery </p>
+          <p className="project-technologies"> <span>Technologies: </span> HTML, CSS, Javascript, jQuery </p>
           <div className="project-links">
             <a href="blackjack.andreeauta.com"> Demo </a>
             <a href="https://github.com/dreeauta/blackjack"> Github </a>
@@ -44,7 +44,7 @@ export default class Projects extends React.Component{
           <h2>Blackjack </h2>
           <img src="img/drawingthings.png"/>
           <p> Using Socket.io and Javasript I built an application that allows you to collaborate with friends on beautiful pictures. </p>
-          <p className="project-technologies"> <span>Technologies: </span> 'Technologies: HTML, CSS, Javascript, jQuery </p>
+          <p className="project-technologies"> <span>Technologies: </span> HTML, CSS, Javascript, jQuery </p>
           <div className="project-links">
             <a href="http://drawing-things.andreeauta.com/"> Demo </a>
             <a href="https://github.com/dreeauta/DrawingThings-Project"> Github </a>
