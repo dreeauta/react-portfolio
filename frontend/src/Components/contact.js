@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import '../CSS/Contact.css';
+import $ from 'jquery';
 
 export default class Contact extends React.Component{
   constructor() {
@@ -11,6 +12,21 @@ export default class Contact extends React.Component{
       message: ''
     };
   }
+  
+  $.ajax({
+  url: this.props.url,
+  dataType: 'json',
+  type: 'POST',
+  data: comment,
+  success: function(data) {
+    this.setState({data: data});
+  }.bind(this),
+  error: function(xhr, status, err) {
+    this.setState({data: comments});
+    console.error(this.props.url, status, err.toString());
+  }.bind(this)
+});
+  
 
 changeState(stateName, event) {
   let textInput = event.target;
@@ -61,7 +77,7 @@ submitForm(event) {
           <a href="github.com">  <img src="img/github.png"/> GitHub </a>
           <a href="linkedin.com">  <img src="img/linkedin.png"/> LinkedIn </a>
           <a href="gmail.com>"> <img src="img/gmail.png"/> E-Mail  </a>
-          <a href="resume"> Resume </a>
+          {/* <a href="img/AndreeaUtaresume.pdf" target="_blank"> <img src="img/resumeicon.png"/> Resume </a>  */}
           </div>
         </div>
 

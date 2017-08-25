@@ -14,7 +14,7 @@
 
 
 .about-text {
-  width: 80%; 
+  width: 80%;
   margin: auto;
   line-height: 1.7em;
 }
@@ -30,8 +30,10 @@
   width: 45%;
   display: inline-block;
   border: 2px solid black;
-  margin-top: 20px;
-  height: 80vh;
+  margin-top: 80px;
+  height: 50vh;
+  text-align: center;
+
 }
 
 .skills {
@@ -48,4 +50,21 @@
   line-height: 2.1em;
   padding: 0;
   columns: 2;
+}
+
+
+
+.skills-container a{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 24px;
+  margin-top: 70px;
+  color: black;
+  text-decoration: none;
+}
+
+.skills-container a:hover{
+  background-color: black;
+  color: white;
 }

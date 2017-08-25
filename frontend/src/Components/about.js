@@ -36,7 +36,12 @@ export default class About extends React.Component{
             <li>Photoshop</li>
           </ul>
         </div>
+
+        <a className="resume" href="img/AndreeaUtaresume.pdf"> Resume </a>
+
       </div>
+
+
     </div>
     )
   }

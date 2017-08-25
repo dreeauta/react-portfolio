@@ -7,13 +7,13 @@ export default class Projects extends React.Component{
     return(
       <div className="projects-wrapper">
         <div className="project-container">
-          <h2>TicTacToe </h2>
-          <img src="img/tictactoe.png"/>
-          <p> This application was the first application I built to learn jQuery.I learned about manipulating the Dom to render events on the page.</p>
-          <p className="project-technologies"> <span>Technologies: </span> HTML, CSS, Javascript, jQuery </p>
+          <h2>Handcrafted </h2>
+          <img src="img/handcrafted.png"/>
+          <p> I built an eccomerce site featuring local artists and art events in Atlanta. I learned how to use Redux. </p>
+          <p className="project-technologies"> <span>Technologies: </span> React, Redux, CSS, Javascript, PostgreSQL </p>
           <div className="project-links">
-            <a href="tictactoe.andreeauta.com"> Demo </a>
-            <a href="https://github.com/dreeauta/tic_tac_toe-jquery"> Github </a>
+            <a href="http://www.handcraftedatl.com" target="_blank" > Demo </a>
+            <a href="https://github.com/dreeauta/Handcrafted-ATL" target="_blank" > Github </a>
           </div>
         </div>
 
@@ -23,8 +23,8 @@ export default class Projects extends React.Component{
           <p> Using Javascript and jQuery I built a cartoon themed BlackJack game. </p>
           <p className="project-technologies"> <span>Technologies: </span> HTML, CSS, Javascript, jQuery </p>
           <div className="project-links">
-            <a href="blackjack.andreeauta.com"> Demo </a>
-            <a href="https://github.com/dreeauta/blackjack"> Github </a>
+            <a href="blackjack.andreeauta.com" target="_blank" > Demo </a>
+            <a href="https://github.com/dreeauta/blackjack" target="_blank" > Github </a>
           </div>
         </div>
 
@@ -35,8 +35,8 @@ export default class Projects extends React.Component{
             Smarta links Yelp, Marta, and Google Maps together to easily search for businesses along your Marta route. </p>
           <p className="project-technologies"> <span>Technologies: </span> Express, Node.JS, BlueBird, HTML, CSS, Javascript </p>
           <div className="project-links">
-            <a href="http://marta.andreeauta.com/"> Demo </a>
-            <a href="https://github.com/dreeauta/Smarta"> Github </a>
+            <a href="http://marta.andreeauta.com/" target="_blank" > Demo </a>
+            <a href="https://github.com/dreeauta/Smarta" target="_blank" > Github </a>
           </div>
         </div>
 
@@ -46,8 +46,8 @@ export default class Projects extends React.Component{
           <p> Using Socket.io and Javasript I built an application that allows you to collaborate with friends on beautiful pictures. </p>
           <p className="project-technologies"> <span>Technologies: </span> HTML, CSS, Javascript, jQuery </p>
           <div className="project-links">
-            <a href="http://drawing-things.andreeauta.com/"> Demo </a>
-            <a href="https://github.com/dreeauta/DrawingThings-Project"> Github </a>
+            <a href="http://drawing-things.andreeauta.com/" target="_blank"> Demo </a>
+            <a href="https://github.com/dreeauta/DrawingThings-Project" target="_blank"> Github </a>
           </div>
         </div>
       </div>

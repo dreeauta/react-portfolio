@@ -26,12 +26,16 @@ textarea {
 
 button {
   width: 50%;
-  height: 30px;
+  padding: 10px 40px;
   margin-top: 10px;
   margin-left: 25%;
-  background-color: blue;
-  color: white;
+  color: black;
   font-size: 12px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
 }
 
 .icons {
@@ -41,7 +45,7 @@ button {
   padding-top: 50px;
 }
 
-.icons img{ 
+.icons img{
 padding-right: 10px;}
 
 .icons a{
@@ -50,4 +54,9 @@ padding-right: 10px;}
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: black;
+}
+
+.icons a:hover{
+  font-size: 20px;
 }
